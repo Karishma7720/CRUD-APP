@@ -44,11 +44,11 @@
         <div class="form-group">
             <label for="gender" class="text-light">Status</label>
             <div class="radio inline">
-                <input type="radio" id="radio-4" name="status" value="Active" <%= user.status == 'Active' ? 'checked' : '' %> >
+                <input type="radio" id="radio-4" name="active" value="active" <%= user.status == 'active' ? 'checked' : '' %> >
                 <label for="radio-4" class="radio-label">Active</label>
             </div>
             <div class="radio inline">
-                <input type="radio" id="radio-5" name="status" value="Inactive" <%= user.status == 'Inactive' ? 'checked' : '' %> >
+                <input type="radio" id="radio-5" name="inactive" value="inactive" <%= user.status == 'inactive' ? 'checked' : '' %> >
                 <label for="radio-5" class="radio-label">Inactive</label>
             </div>
         </div>
